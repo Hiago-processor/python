@@ -1,0 +1,26 @@
+total = 0
+maior = 0
+num_clientes = 10
+
+for c in range(1, num_clientes + 1):
+    try:
+        print(f"Digite o valor sacado pelo cliente {c}: ")
+        saque = float(input())  # float para aceitar valores decimais
+        
+        if saque < 0:
+            print("Valor não pode ser negativo. Tente novamente.")
+            continue
+            
+        total += saque
+        
+        if saque > maior:
+            maior = saque
+            
+    except ValueError:
+        print("Por favor, digite um número válido.")
+        continue
+
+media = total / num_clientes
+
+print(f"O maior valor sacado foi: R$ {maior:.2f}")
+print(f"A média dos valores sacados é: R$ {media:.2f}")
