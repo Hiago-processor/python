@@ -1,0 +1,6 @@
+#A maquina fez a sequecia certa da conta, fazendo primeiro a multiplicação depois a adição, fazendo o rsultado ser 17
+print("2 + 3 x 5 =",2 + 3 * 5, "\n")
+#Aqui ele fez primeiro o parenteses para depois fazer a multiplicação
+print("(2 + 3) x 5 =",(2 + 3)*5, "\n")
+#O sistema aqui ele fez os expoentes para depois diminuir
+print("10 - 2² =",10 - 2**2, "\n")
