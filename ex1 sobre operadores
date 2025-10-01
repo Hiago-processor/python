@@ -1,0 +1,9 @@
+print("Soma: ", 15 + 7, "\n")
+print("Subtração: ", 20 - 9, "\n")
+print("Multiplicação: ", 8 * 6, "\n")
+# O "/" faz a divisão mostrando todos os numeros 
+print("divisão: ", 15 / 4, "\n")
+#O "//" mostra apenas o começo
+print("Divisão inteira: ", 15 // 4, "\n")
+#O "% é um modulo"
+print("Resto da divisão: ", 15 % 4, "\n")
